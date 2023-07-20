@@ -26,7 +26,7 @@ header button{
     height: 50%;
     border-radius: 20px;
     font-size: 25px;
-    transform: translate(-35vw , 0);
+    transform: translate(-24vw , 0);
     background-color: #EEE5E9;
     color: #2B303A;
     transition: 0.4s;
@@ -35,7 +35,7 @@ header button{
 header button:hover{
 background-color: #92DCE5;
 cursor:pointer;
-transform: translate(-35vw , -10%);
+transform: translate(-24vw , -10%);
 box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -140,3 +140,35 @@ font-weight: bold;
     .donecard:hover{
         transform: translate(0px,-10px);
     }
+/* ----------------------------------------------------------------- */
+    footer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40vh;
+        width: 100%;
+        background-color: #1f232a;
+    }
+    footer p{
+        color: #EEE5E9;
+        position: absolute;
+        transform: translate(0, 18vh);
+        font-size: 20px;
+    }
+    footer div{
+    display: flex;
+    gap: 4%;
+    width: 35vw;
+    }
+    footer div a{
+        text-decoration: none;
+        color: #EEE5E9;
+        font-size:20px;
+        border-bottom: 2px solid #EEE5E9 ;
+        padding-right: 10px;
+        transition: 0.5s;
+    }
+
+.lowlogo{
+    width:10%;
+}
